@@ -1,0 +1,698 @@
+html,
+body {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  height: auto;
+}
+.designed-developed {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  color: #a8a3a3;
+}
+.designed-developed a {
+  color: #ece8e8;
+  text-decoration: none;
+}
+/* DESKTOP LAYOUT */
+/* top part */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 165px 0px 165px;
+  position: relative;
+}
+.workit-logo {
+  width: 95.76px;
+  height: 24.61px;
+}
+header {
+  width: 100%;
+  height: 730px;
+  position: relative;
+  background-color: #24053e;
+  border-bottom-left-radius: 50% 45px;
+  border-bottom-right-radius: 50% 45px;
+}
+
+.apply-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: Manrope, sans-serif;
+  font-weight: bold;
+  line-height: 2rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.apply-link:hover {
+  color: #44ffa1;
+}
+.apply-link::after {
+  content: "";
+  display: block;
+  position: relative;
+  bottom: -2px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #44ffa1;
+}
+main {
+  width: 635px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+main > h1 {
+  font-family: Fraunces, sans-serif;
+  line-height: 80px;
+  font-size: 5rem;
+  color: #fff;
+  margin-bottom: 37px;
+  font-weight: 400;
+  margin-top: 45px;
+}
+.tailored {
+  position: relative;
+}
+.tailored::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: #44ffa1;
+  position: absolute;
+  bottom: 5px;
+  left: 3px;
+  width: 100%;
+}
+main > button {
+  width: 161px;
+  height: 61px;
+  font-size: 1.125rem;
+  font-family: Manrope, sans-serif;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: -0.18px;
+  background: #44ffa1;
+  color: #24053e;
+  border: none;
+  cursor: pointer;
+}
+main > button:hover {
+  color: #44ffa1;
+  background-color: #24053e;
+  border: 2px solid #44ffa1;
+}
+/* phone picture */
+main > img {
+  position: relative;
+  top: 45px;
+  width: 767px;
+}
+.spring-left {
+  position: absolute;
+  top: 128px;
+  left: -140px;
+}
+.spring-right {
+  position: absolute;
+  top: 320px;
+  right: -50.3px;
+}
+
+/* central grey part */
+section {
+  position: relative;
+  z-index: -1;
+  height: 960px;
+  width: 100%;
+  background: #fcf8ff;
+  margin-top: -226px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 50% 45px;
+  border-bottom-right-radius: 50% 45px;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  width: 100%;
+  height: 308px;
+}
+/* first section actionable insights */
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  width: 354px;
+}
+
+.circle-one {
+  font-family: Fraunces, sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-bottom: 56px;
+}
+.first h2 {
+  font-family: Fraunces, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 28px;
+}
+.first p {
+  font-family: Manrope, sans-serif;
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 2rem;
+}
+/* second section data-driven decisions */
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 354px;
+}
+
+.circle-two {
+  font-family: Fraunces, sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-bottom: 56px;
+}
+.second h2 {
+  font-family: Fraunces, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 28px;
+}
+.second p {
+  font-family: Manrope, sans-serif;
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 2rem;
+}
+/* third section always affordable */
+.third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 354px;
+}
+
+.circle-three {
+  font-family: Fraunces, sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-bottom: 56px;
+}
+.third h2 {
+  font-family: Fraunces, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 28px;
+}
+.third p {
+  font-family: Manrope, sans-serif;
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 2rem;
+}
+/* bottom section */
+.bottom-section {
+  height: 1030px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* bottom container with pic  and block with button */
+.container {
+  background-color: #fff;
+  width: 1112px;
+  height: 647.74px;
+  position: relative;
+}
+.container > img {
+  width: 477px;
+  height: 477px;
+}
+.inviteblock {
+  color: #fff;
+  position: absolute;
+  background: #24053e;
+  width: 730px;
+  height: 413px;
+  left: 382px;
+  top: 173px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 64.5px;
+}
+.inviteblock > h3 {
+  font-family: Fraunces, sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 64px;
+}
+.inviteblock > p {
+  font-family: Manrope, sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 32px;
+}
+.inviteblock > button {
+  width: 190px;
+  height: 61px;
+  font-size: 1.125rem;
+  font-family: Manrope, sans-serif;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: -0.18px;
+  background: #44ffa1;
+  color: #24053e;
+  border: none;
+  text-align: center;
+}
+.inviteblock > button:hover {
+  color: #44ffa1;
+  background-color: #24053e;
+  border: 2px solid #44ffa1;
+  cursor: pointer;
+}
+.inviteblock > svg {
+  position: absolute;
+  width: 173px;
+  height: 173px;
+  right: 72px;
+  bottom: -50px;
+}
+/* footer logo and  social networks icons */
+.footer-logo-icons-block {
+  background-color: #fff;
+  width: 116px;
+  height: 102.22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.footer-icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.frontendmentor {
+  text-align: end;
+  margin: 0 20px 20px 0;
+}
+/* TABLET LAYOUT */
+@media (max-width: 1095px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 40px 0px 39px;
+    position: relative;
+  }
+  header {
+    height: 520.24px;
+  }
+  main > h1 {
+    font-size: 3.125rem;
+    line-height: 3.125rem;
+    width: 537px;
+    margin: 56px 0 39px 0;
+    height: 121px;
+  }
+  main > button {
+    height: 55px;
+    width: 133px;
+    font-size: 1rem;
+    letter-spacing: -0.16px;
+  }
+  .spring-left {
+    width: 270.29px;
+    height: 215.1px;
+    left: -175px;
+  }
+  .spring-right {
+    width: 141.7px;
+    height: 112.71px;
+    top: 290px;
+    right: -70px;
+  }
+  /* phone picture */
+  main > img {
+    width: 514px;
+    height: 296px;
+    top: 35px;
+    left: 35px;
+  }
+  /* central grey part  of page*/
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle-one {
+    width: 48px;
+    height: 46px;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    aspect-ratio: 1/1;
+    margin: 45px 32px 45px 0;
+    font-weight: 600;
+  }
+  .first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 537px;
+    height: 108px;
+    margin-top: 100px;
+  }
+  .group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .group h2 {
+    font-family: Fraunces, sans-serif;
+    font-size: 28px;
+    margin-bottom: 16px;
+    line-height: 36px;
+    font-weight: 600;
+  }
+  .group p {
+    font-family: Manrope, sans-serif;
+    font-size: 1rem;
+    line-height: 28px;
+    text-align: left;
+  }
+  .circle-two {
+    width: 48px;
+    height: 46px;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    aspect-ratio: 1/1;
+    margin: 45px 32px 45px 0;
+    font-weight: 600;
+  }
+  .second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 537px;
+    height: 136px;
+    margin-top: 48px;
+  }
+  .circle-three {
+    width: 48px;
+    height: 46px;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    aspect-ratio: 1/1;
+    margin: 45px 32px 45px 0;
+    font-weight: 600;
+  }
+  .third {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 537px;
+    height: 136px;
+    margin-top: 48px;
+  }
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    width: 100%;
+    height: 920px;
+  }
+  /* bottom section container with pic  and block with button */
+  .container {
+    width: 689px;
+    height: 526px;
+  }
+  .container > img {
+    width: 281px;
+    height: 281px;
+  }
+  .inviteblock {
+    width: 514px;
+    height: 375px;
+    padding: 48px 56px 56px 56px;
+    left: 175px;
+    top: 151px;
+  }
+  .inviteblock > h3 {
+    line-height: 56px;
+    font-size: 47px;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  .inviteblock > p {
+    line-height: 28px;
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+  .inviteblock > button {
+    width: 172px;
+    height: 55px;
+    padding: 11px 23.5px 12px 23.5px;
+    font-size: 1rem;
+    letter-spacing: -0.16px;
+  }
+  .inviteblock > svg {
+    width: 173px;
+    height: 137px;
+    right: -10px;
+    bottom: -70px;
+  }
+  /* footer logo and  social networks icons */
+  .footer-logo-icons-block {
+    margin-top: 80px;
+  }
+}
+/* MOBILE LAYOUT */
+@media (max-width: 711px) {
+  .designed-developed {
+    font-size: 14px;
+  }
+  header {
+    height: 481.71px;
+    border-bottom-left-radius: 100% 4%;
+    border-bottom-right-radius: 100% 4%;
+  }
+  nav {
+    padding: 32px 16px 0px 16px;
+  }
+  /* workit logo */
+  nav > img {
+    width: 95.76px;
+    height: 24.61px;
+  }
+  header {
+    height: 481.71px;
+    width: 100%;
+  }
+  main > h1 {
+    font-size: 50px;
+    line-height: 50px;
+    width: 343px;
+    text-align: center;
+    height: 121px;
+  }
+  main {
+    width: 100%;
+  }
+
+  .spring-left {
+    display: none;
+  }
+  .spring-right {
+    display: none;
+  }
+  /* phone picture */
+  main > img {
+    width: 320px;
+    height: 184px;
+    top: 55px;
+    left: 5px;
+  }
+  /* central grey part  of page*/
+  section {
+    border-bottom-left-radius: 50% 15px;
+    border-bottom-right-radius: 50% 15px;
+    width: 100%;
+    height: 1070px;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -10px;
+    background: #fcf8ff;
+    vertical-align: middle;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+  }
+  .first,
+  .second,
+  .third {
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+    margin-top: auto;
+  }
+  .group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .group p {
+    text-align: center;
+  }
+  .circle-one,
+  .circle-two,
+  .circle-three {
+    aspect-ratio: 1/1;
+    align-items: center;
+    vertical-align: middle;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 48px;
+    height: 46px;
+  }
+
+  /* bottom section container with pic  and block with button */
+  .container {
+    width: 343px;
+    height: 603px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inviteblock {
+    left: 0;
+    top: 228px;
+    padding: 32px;
+    width: 343px;
+    height: 375px;
+    text-align: center;
+    align-items: center;
+  }
+  .inviteblock > h3 {
+    line-height: 48px;
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  .inviteblock > button {
+    width: 172px;
+    height: 55px;
+    padding: 11px 23.5px 12px 23.5px;
+    font-size: 1rem;
+    letter-spacing: -0.16px;
+  }
+  .inviteblock > svg {
+    display: none;
+  }
+  /* footer logo and  social networks icons */
+  .footer-logo-icons-block {
+    margin-top: 74px;
+  }
+}
